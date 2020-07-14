@@ -8,7 +8,7 @@ end
 parrot
 
 def parrot(phrase)
-  phrase = "Pretty bird!"
+  parrot("Pretty bird!")
   puts phrase
   return phrase
 end
