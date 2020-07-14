@@ -4,12 +4,13 @@
 def parrot
   puts "Squawk!"
   return "Squawk!"
-end 
-parrot
 
+phrase = "Pretty bird!"
 def parrot(phrase)
   parrot("Pretty bird!")
   puts phrase
   return phrase
 end
+end 
+parrot
 parrot(phrase)
